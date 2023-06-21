@@ -12,12 +12,12 @@ This repository contains my implementation of a Wordle Solver as part of a rush 
 - [Acknowledgements](#acknowledgements)
 
 ## Features
-### Assistant part2
+### part2, Assistant
 - Recommends the word with the highest chance of being correct.
 - Uses a Wordle database to sort out incorrect words and lists possible correct words for the user.
 - Implemented in C language.
 
-### Bonus game
+### Bonus, Wordle game
 - Play Wordle in the terminal as many times as you like.
 
 ## Installation
@@ -31,7 +31,7 @@ make all
 ## Usage
 
 Use the wordle assistant:
-``sh
+```sh
 ./assistant
 ```
 
