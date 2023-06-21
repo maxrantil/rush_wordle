@@ -44,7 +44,7 @@ Use the wordle assistant:
 ```
 
 
-Let the A.I Player play for you:
+Let the A.I. Player play for you:
 ```sh
 ./player
 ```
