@@ -46,5 +46,5 @@ Please report bugs and improvmens if you find any.
 
 ## Acknowledgements
 
-Thank you for the collaboration: [![](https://github.com/ehelmine)]
+Thank you for the collaboration: [![ehelmine](https://github.com/ehelmine)]
 
