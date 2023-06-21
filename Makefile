@@ -19,8 +19,8 @@ PART01_HEADERS = $(PART01_DIR)/wordle.h
 PART02_HEADERS = $(PART02_DIR)/wordle.h
 
 # Executables
-PART01_EXEC = part01_exec
-PART02_EXEC = assistant
+PART01_EXEC = assistant
+PART02_EXEC = player
 BONUS_EXEC = game
 
 # Targets
