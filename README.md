@@ -1,5 +1,7 @@
 # Wordle Solver
 
+The game could be found at https://www.nytimes.com/games/wordle/index.html
+
 Wordle is a web-based word game created and developed by Welsh software engineer Josh Wardle, and owned and published by The New York Times Company since 2022. Players have six attempts to guess a five-letter word, with feedback given for each guess in the form of colored tiles indicating when letters match or occupy the correct position.
 
 This repository contains my implementation of a Wordle Solver as part of a rush project at Hive Helsinki.
@@ -12,7 +14,7 @@ This repository contains my implementation of a Wordle Solver as part of a rush 
 - [Acknowledgements](#acknowledgements)
 
 ## Features
-- Implemented in C language.
+As there is no integration with the actual game itself, you must manually type the words into the game and the program.
 
 ### part1, Assistant
   - The assistant utilizes a Wordle database to filter out incorrect words and displays a list of potential correct words to the user.
