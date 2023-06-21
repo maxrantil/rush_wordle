@@ -15,6 +15,8 @@ This repository contains my implementation of a Wordle Solver as part of a rush 
 
 ## Features
 As there is no integration with the actual game itself, you must manually type the words into the game and the program.
+
+Example of the A.I. player:
 ![Screenshot of the game](./demo.png "Game Screenshot")
 
 ### part1, Assistant
