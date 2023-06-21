@@ -25,7 +25,7 @@ static void	give_indexes(t_wordle *data)
 			++data->green;
 			data->total_green[data->num_green++] = data->green_buf[i];
 		}
-		++i;	
+		++i;
 	}
 	i = 0;
 	data->yellow = 0;
@@ -141,7 +141,7 @@ static char	**word_list(void)
 
 
 int main(void)
-{	
+{
 	t_wordle	data;
 	int loop = 0;
 	char str[2];
@@ -149,7 +149,7 @@ int main(void)
 	memset(&data, 0, sizeof(t_wordle));
 	memset(str, 0, 1);
 	data.arr = word_list();
-	count_values(loop, &data);
+	count_values(&data);
 	while (loop < 5)
 	{
 		if (loop > 0)
@@ -184,7 +184,7 @@ int main(void)
 		{
 			printf("\n\033[0;31mError: not correct input. Please try again.\033[0;37m\n\n");
 			continue ;
-		}	
+		}
 		printf("%s\n", "any \x1b[0;37mBLACK\033[0m letters?, usage: <....o>");
 		scanf("%s", data.black_buf);
 		if (check_str(data.black_buf) == -1)

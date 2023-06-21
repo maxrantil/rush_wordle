@@ -56,11 +56,9 @@ char	**word_list(void)
 void	print_list(char **array)
 {
 	int i;
-	int x;
 	int counter;
 
 	i = 0;
-	x = 0;
 	counter = 0;
 	while (array[i] != NULL)
 	{

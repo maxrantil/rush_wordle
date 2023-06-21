@@ -179,9 +179,8 @@ U	3.6308%		18.51	Z	0.2722%	1.39
 D	3.3844%		17.25	J	0.1965%	1.00
 P	3.1671%		16.14	Q	0.1962%	(1)*/
 
-void	count_values(int loop, t_wordle *data)
+void	count_values(t_wordle *data)
 {
-	int i = 0;
 	int x = 0;
 	float big = 0;
 	char *ptr;

@@ -27,20 +27,6 @@ static int	ft_tolower(int c)
 	return (c);
 }
 
-static int	ft_strclen(char *str, int c)
-{
-	int	i;
-
-	i = 0;
-	while (str[i] && str[i] != c)
-	{
-		i++;
-		if (str[i] == c)
-			return (i);
-	}
-	return (0);
-}
-
 static char	**word_list(void)
 {
 	char *array[2309] = {"cigar","rebut","sissy","humph","awake",
@@ -125,7 +111,6 @@ int main()
 	int j = 0;
 	printf("%c", '\n');
 	int loop = 6;
-	int x;
 	while (loop)
 	{
 		int i = 0;
@@ -168,7 +153,7 @@ int main()
 					j = 0;
 					while (random_correct_answer[j])
 					{
-						if (input[i] == random_correct_answer[j] && i != j) 
+						if (input[i] == random_correct_answer[j] && i != j)
 						{
 							printf("\x1b[1;33m%c\033[0m", input[i] - 32);  //print yellow
 							random_correct_answer[j] = '9';

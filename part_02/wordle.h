@@ -22,7 +22,7 @@ typedef struct s_wordle
 	float	**value_arr;
 }				t_wordle;
 
-void	count_values(int loop, t_wordle *data);
+void	count_values(t_wordle *data);
 void	call_filters(t_wordle *data);
 void	black_filter(t_wordle *data);
 void	print_best_option(char **array, float **val_arr);

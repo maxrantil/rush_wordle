@@ -30,9 +30,7 @@ static void	filter_green(char **array, char letter, int index)
 	// checks if given letter is in the right place
 
 	int i;
-	int x;
 
-	x = 0;
 	for (i = 0; i < 2308; i++)
 	{
 		if (array[i][0] != '\0')

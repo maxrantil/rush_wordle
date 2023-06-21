@@ -36,9 +36,7 @@ static void	filter_green(char **array, char letter, int index, float **val_arr)
 	// checks if given letter is in the right place
 
 	int i;
-	int x;
 
-	x = 0;
 	for (i = 0; i < 2308; i++)
 	{
 		if (array[i][0] != '\0')
@@ -61,7 +59,7 @@ void	call_filters(t_wordle *data)
 		while (data->green_buf[i] != '\0' && data->green_buf[i] == '.')
 			i++;
 		if (data->green_buf[i] == '\0')
-			break ;	
+			break ;
 		filter_green(data->arr, data->green_buf[i], i, data->value_arr);
 		data->green--;
 		i++;
@@ -72,7 +70,7 @@ void	call_filters(t_wordle *data)
 		while (data->yellow_buf[i] != '\0' && data->yellow_buf[i] == '.')
 			i++;
 		if (data->yellow_buf[i] == '\0')
-			break ;	
+			break ;
 		filter_yellow(data->arr, data->yellow_buf[i], i, data->value_arr);
 		data->yellow--;
 		i++;
